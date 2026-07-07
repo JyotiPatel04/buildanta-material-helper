@@ -1,36 +1,162 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏗️ Buildanta Material Helper
 
-## Getting Started
+An AI-powered construction material helper built using **Next.js** and **OpenRouter API**.
 
-First, run the development server:
+This application helps first-time homeowners by providing **3 practical checks** before purchasing construction materials such as cement, TMT bars, bricks, tiles, paint, pipes, and more.
+
+---
+
+## 🚀 Live Demo
+
+🔗 https://buildanta-material-helper-beryl.vercel.app
+
+---
+
+## 📌 Features
+
+- AI-powered material buying assistant
+- Provides exactly 3 practical buying checks
+- Supports multiple construction materials
+- Rejects invalid inputs (e.g., Car, Dog)
+- Clean and responsive UI
+- Fast API response using OpenRouter
+- Built with Next.js App Router
+
+---
+
+## 🛠️ Tech Stack
+
+- Next.js 16
+- React
+- OpenRouter API
+- OpenAI SDK
+- JavaScript
+- CSS
+
+---
+
+## 📂 Supported Materials
+
+- Cement
+- TMT Bar
+- Sand
+- Bricks
+- Tiles
+- Marble
+- Granite
+- Paint
+- Primer
+- Wall Putty
+- POP
+- Pipes
+- Electrical Wires
+- Switches
+- Sockets
+- Water Tank
+- Glass
+- Doors
+- Windows
+- Steel
+- Roofing Sheets
+- And many more...
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/JyotiPatel04/buildanta-material-helper.git
+```
+
+Go to project folder
+
+```bash
+cd buildanta-material-helper
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create a `.env.local` file
+
+```env
+OPENROUTER_API_KEY=your_openrouter_api_key
+```
+
+Run the project
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📸 Demo
 
-To learn more about Next.js, take a look at the following resources:
+### Home Page
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Enter a construction material
+- Click **Submit**
+- Get exactly **3 practical buying checks**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📁 Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+app/
+ ├── api/
+ │    └── material-helper/
+ ├── page.js
+ ├── globals.css
+public/
+.env.local
+package.json
+README.md
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📖 Example
+
+### Input
+
+```
+cement
+```
+
+### Output
+
+```
+• Check the bag's weight and expiry date.
+
+• Verify the cement's grade and ISI mark.
+
+• Inspect the packaging for moisture or damage.
+```
+
+---
+
+## 👩‍💻 Author
+
+**Jyoti Patel**
+
+- GitHub: https://github.com/JyotiPatel04
+- LinkedIn: https://www.linkedin.com/in/jyoti-patel-489b4733b
+
+---
+
+## 📄 License
+
+This project is created for the **Buildanta AI Internship Assignment**.
