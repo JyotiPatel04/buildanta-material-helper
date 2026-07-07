@@ -157,6 +157,18 @@ cement
 
 ---
 
+## 📸 Screenshots
+
+### Home Page
+
+![Home](home.png)
+
+### AI Response
+
+![Result](result.png)
+
+---
+
 ## 📄 License
 
-This project is created for the **Buildanta AI Internship Assignment**.
+This project is created for the Buildanta AI Internship Assignment.
